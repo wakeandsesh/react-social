@@ -1,0 +1,22 @@
+.navbar {
+    grid-area: navbar;
+    background-color: #F2B5D4;
+    height: 100%;
+}
+
+.navbar__link {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 2px solid #B8B5B4;
+}
+
+.navbar__link a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar__link__active {
+    color: #FBFF00;
+    background-color: black;
+}
